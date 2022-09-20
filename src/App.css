@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.image {
+  width: 100px;
+  flex-shrink: 0;
+  height: 80px;
+}
+.flex-column{
+  padding: 10px;
+}
+.image img {
+  height: 100%;
+}
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  margin-left: 15px;
+  padding: 7px;
+  height: 100%;
+  background: pink;
+  border: 1px solid;
+  width:30px
+}
+
+
+.btn{
+  background: #ddd;
+    border: 1px solid #000;
+    margin: 25px 0 0;
+}
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  margin-left: 15px;
+  padding: 7px;
+  height: 100%;
+  background: pink;
+  border: 1px solid;
+  width: 30px;
+}
+
+.inpoutDiv {
+  margin: 50px 0 0;
+  width: 100%;
+}
+
+.append-card button.icon-button {
+  text-align: right;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent;
+  border: 0;
+}
+
+.div-li.card {
+  position: relative;
+  padding: 10px 10px;
+}
+
+.append-card {
+  margin: 45px 0 0;
+  width:100%;
+}
+.App {
+  height: 100vh;
+  background: #ddd;
+}
+.custom-input {
+  height: 36px;
+}
+
+.custom-input input {
+  height: 100%;
+  border-color: #ddd;
+  border: 0;
+  width: 100%;
+}
+label {
+  padding-right: 15px;
+}
+.btn.btn-primary {
+  color: #fff !important;
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+table td,table th {
+  border-color: #000 !important;
+  border-width: 1px;
+}
+.link-btn {
+  margin: 10px 0 0 !important;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 10px 32px !important;
+  text-decoration: none !important;
+  font-size: 19px;
+  background: #000;
+  color: #fff;
+}
